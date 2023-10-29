@@ -68,7 +68,7 @@ html {
     line-height: 50px;
     text-align: center; }
     .navBox .nav li a:hover {
-      background: #ff9200;
+      background: #ff0000;
       color: #fff; }
   .navBox .nav li.current a {
     background: #ff9200; }
@@ -89,7 +89,7 @@ html {
     z-index: 9999; }
     .navBox .nav li .subNav a {
       background: #ff9200;
-      color: #fff;
+      color: rgb(255, 255, 255);
       line-height: 40px;
       font-size: 14px; }
   .navBox .nav li:hover .subNav {
@@ -136,7 +136,7 @@ html {
 
 .wrapper {
   width: 1160px;
-  min-height: 942px;
+  min-height: 320px;
   padding: 30px 20px;
   background: #fff;
   margin: 0 auto; }
@@ -147,151 +147,12 @@ html {
       width: 910px; }
       .wrapper .content .columnBox .column {
         float: left;
-        width: 478px;
-        margin: 0 26px 40px 0; 
-        min-height: 310px; 
+        width: 1164px;
+        margin: 0 26px -212px -3px; 
+        min-height: 380px; 
         }
-        .wrapper .content .columnBox .column .title {
-          width: 478px;
-          line-height: 50px;
-          text-indent: 12px;
-          font-size: 20px;
-          font-weight: 700;
-          color: #fff;
-          background: url(../images/titleBg.png) 0 0 no-repeat;
-          position: relative; }
-          .wrapper .content .columnBox .column .title a {
-            display: block;
-            width: 64px;
-            height: 50px;
-            background: url(../images/1_22.jpg) center center no-repeat;
-            position: absolute;
-            top: 0;
-            right: 10px; }
-        .wrapper .content .columnBox .column .ggList {
-          width: 380px; }
-          .wrapper .content .columnBox .column .ggList li {
-            padding-left: 25px;
-            font-size: 16px;
-            margin-top: 20px;
-            background: url(../images/list_01.png) 0 5px no-repeat; }
-            .wrapper .content .columnBox .column .ggList li span {
-              color: #999;
-              margin-left: 20px; }
-        .wrapper .content .columnBox .column .list {
-          width: 478px;
-          font-size: 16px;
-          padding-top: 10px;
-          overflow: hidden;
-          }
-          .wrapper .content .columnBox .column .list li {
-   
-            margin-top: 14px;
-            padding-left: 13px;
-            background: url(../images/list_02.png) left center no-repeat; }
-            .wrapper .content .columnBox .column .list li a {
-              display: block;
-              width: 465px;
-              position: relative; }
-              .wrapper .content .columnBox .column .list li a p {
-                width: 320px;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis; }
-              .wrapper .content .columnBox .column .list li a span {
-                display: block;
-                width: 50px;
-                text-align: right;
-                color: #999;
-                position: absolute;
-                right: 0;
-                top: 0; }
-      .wrapper .content .columnBox .columnL {
-        width: 380px;
-        float: left; }
-        .wrapper .content .columnBox .columnL .title {
-          width: 380px; }
-        .wrapper .content .columnBox .columnL .list {
-          width: 380px; }
-          .wrapper .content .columnBox .columnL .list li a {
-            width: 367px; }
-            .wrapper .content .columnBox .columnL .list li a p {
-              width: 260px; }
-    .wrapper .content .shopBox {
-      width: 246px;
-      position: absolute;
-      right: 0;
-      top: 0; }
-      .wrapper .content .shopBox .shop {
-        box-shadow: 0 0 5px #d8dce7;
-        padding: 5px 21px;
-        background: #fff; }
-        .wrapper .content .shopBox .shop .shopUl li {
-          height: 37px;
-          margin-bottom: 15px; }
-          .wrapper .content .shopBox .shop .shopUl li a {
-            display: block;
-            color: #fff;
-            line-height: 36px;
-            text-indent: 90px; }
-          .wrapper .content .shopBox .shop .shopUl li:nth-child(1) {
-            background: url(../images/btn_01.png) 0 0 no-repeat; }
-          .wrapper .content .shopBox .shop .shopUl li:nth-child(2) {
-            background: url(../images/btn_02.png) 0 0 no-repeat; }
-          .wrapper .content .shopBox .shop .shopUl li:nth-child(3) {
-            background: url(../images/btn_03.png) 0 0 no-repeat; }
-          .wrapper .content .shopBox .shop .shopUl li:nth-child(4) {
-            background: url(../images/btn_04.png) 0 0 no-repeat; }
-          .wrapper .content .shopBox .shop .shopUl li:nth-child(5) {
-            background: url(../images/btn_05.png) 0 0 no-repeat; }
-          .wrapper .content .shopBox .shop .shopUl li:nth-child(6) {
-            background: url(../images/btn_06.png) 0 0 no-repeat;
-            margin-bottom: 0; }
-      .picBox .jyfwdd {
-        width: 204px;
-      }
-        .picBox .jyfwdd a {
-          display: block;
-          background: url('../images/jyfwdd.jpg'); 
-        }
-        .picBox .jyfwdd a p {
-          text-align: center;
-          line-height: 50px;
-          font-size: 24px;
-          color: #fff;
-        }
-
-        .picBox .xxList {
-          margin-top: 10px;
-          height: 40px;
-        }
-      .picBox .xxList li {
-        float: left;
-        width: 210px;
-        margin-top: 10px;
-        background: #ebeef2; 
-        margin: 0 11px;
-      }
-        .picBox .xxList li a {
-          display: block;
-          line-height: 40px;
-          padding-left: 65px; }
-        .picBox .xxList li:nth-child(1) a {
-          background: url(../images/icon_02.png) 30px center no-repeat; }
-        .picBox .xxList li:nth-child(2) a {
-          background: url(../images/icon_03.png) 30px center no-repeat; }
-        .picBox .xxList li:nth-child(3) a {
-          background: url(../images/icon_04.png) 30px center no-repeat; }
-        .picBox .xxList li:nth-child(4) a {
-          background: url(../images/icon_05.png) 30px center no-repeat; }
-        .picBox .xxList li:nth-child(5) a {
-          background: url(../images/icon_06.png) 30px center no-repeat; }
-        .wrapper .picBox {
-            width: 1160px;
-            height: 230px;
-            overflow: hidden;
-            position: relative;
-          }
+       
+       
   .wrapper .picBox .title {
     width: 1160px;
     line-height: 50px;
@@ -334,33 +195,7 @@ html {
           position: absolute;
           left: 0;
           bottom: 0; }
-  .wrapper .partner {
-    margin: 28px 0; }
-    .wrapper .partner a {
-      float: left;
-      display: block;
-      width: 185px;
-      height: 68px;
-      margin-right: 10px; }
-      .wrapper .partner a:last-child {
-        margin-right: 0; }
-  .wrapper .link {
-    position: relative;
-    padding-left: 90px;
-    line-height: 30px;
-    color: #666; }
-    .wrapper .link h2 {
-      width: 90px;
-      line-height: 30px;
-      text-align: center;
-      background: #0063af;
-      color: #fff;
-      position: absolute;
-      left: 0;
-      top: 0; }
-    .wrapper .link a {
-      margin: 0 12px;
-      color: #666; }
+  
 
 .footerWrap {
   background: #0063af;
